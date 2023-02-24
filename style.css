@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif 
 }
 
 /*two header sections*/
@@ -8,44 +9,70 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FaF8;
-    padding: 0;
+    padding: 16px;
     margin: 0;
     display: flex;
+    justify-content: space-around;
+    
 }
 
 .header-logo {
     font-size: 24px;
     color: #F9FaF8;
+    font-weight: 800;
+    
 }
 
 .header-content {
     background-color: #1F2937;
     color: #F9FaF8;
-    padding: 0;
-    margin: 0;
     display: flex;
-    
+    flex-direction: row;
+}
+
+.sign-up {
+    width: 80px;
+    margin: 0;
+}
+
+.header-image {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    width:500px;
 }
 
 .header-title {
     font-size: 48px;
     font-weight: 800px;
+    margin-left: 40px;
 }
 
 .header-info {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 80px;
+    margin-left: 100px;
 }
 
-li {
+
+ol {
     text-decoration: none;
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 /*First main content container */
 
 .container {
+    flex: 1;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 
@@ -69,6 +96,7 @@ li {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .footer-container {
@@ -76,6 +104,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 button {
