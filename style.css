@@ -73,8 +73,31 @@ ol {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    gap: 50px;
+    margin-bottom: 150px;
 }
 
+.container-title {
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+img {
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+  }
+
+  .info {
+    max-width: 150px;
+  }
 
 /*Second main content container */
 
@@ -110,4 +133,15 @@ ol {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+}
+
+/*bottom*/
+
+.bottom {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    display: flex;
+    min-height: 75px;
+    justify-content: center;
+    align-items: center;
 }
